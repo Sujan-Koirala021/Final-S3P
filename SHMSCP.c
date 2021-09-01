@@ -24,6 +24,9 @@ int main()
     read_file();
     int c,i,q;
     printf("Hospital Management System\n");
+    printf("Pulchowk, Lalitpur\n");
+    printf("Contact No : 9840000000\n\n");
+
 
     int m,n;
 //making out the pattern
@@ -470,7 +473,7 @@ void read_file()
 }
 void write_file()
 {
-    FILE *fp = fopen("patient.txt","a");
+    FILE *fp = fopen("patient.txt","w");
     if(fp == NULL)
     {
         printf("Error");
